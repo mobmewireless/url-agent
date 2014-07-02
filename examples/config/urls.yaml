@@ -1,0 +1,20 @@
+google:
+  active: http://www.google.co.in/search?client=%%client%%&q=%%query%%
+  backup: http://www.google.com/search?client=%%client%%&q=%%query%%
+
+pinger:
+  google:
+    verb: get
+    params:
+      client: safari
+      query: hello
+  tick: 5
+
+timeouts:
+  connection: 2
+  inactivity: 5
+
+logger:
+  log_level: debug
+  path: log/urls.log
+  

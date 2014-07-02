@@ -1,0 +1,32 @@
+google:
+  active: http://www.google.co.in/search?client=%%client%%&q=%%query%%
+  backup: http://www.google.com/search?client=%%client%%&q=%%query%%
+
+dummy_normal:
+  active: http://127.0.0.1:10002/hello
+
+dummy_slow:
+  active: http://127.0.0.1:10002/slow
+
+dummy_timeout:
+  active: http://127.0.0.1:10002/timeout
+  
+dummy_nonexistent:
+  active: http://random-domain-blah.com/
+
+pinger:
+  google:
+    verb: get
+    params:
+      client: safari
+      query: hello
+  tick: 5
+
+timeouts:
+  connection: 0.5
+  inactivity: 2
+
+logger:
+  log_level: debug
+  path: log/urls.log
+
