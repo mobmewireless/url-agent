@@ -4,7 +4,7 @@ require 'em-synchrony'
 require 'em-http-request'
 require 'em-synchrony/em-http'
 
-require 'url_agent'
+require 'url-agent'
 
 puts 'Tail logs/urls.log for something interesting to see!'
 

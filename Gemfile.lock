@@ -8,14 +8,13 @@ GIT
 PATH
   remote: .
   specs:
-    url-agent (0.9.7)
+    url-agent (1.0.0)
       activesupport
       em-http-request
       em-synchrony
       eventmachine (~> 1.0.0.beta)
 
 GEM
-  remote: http://gems.mobme.in/
   remote: https://rubygems.org/
   specs:
     activesupport (4.1.1)

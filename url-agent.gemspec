@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |s|
-  s.name        = "url-agent"
-  s.version     = "0.9.7"
+  s.name        = 'url-agent'
+  s.version     = '1.0.0'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Vishnu Gopal"]
   s.email       = ["vishnu@mobme.in"]

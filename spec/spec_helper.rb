@@ -9,5 +9,5 @@ SimpleCov.start do
   add_filter 'spec'
 end if ENV["COVERAGE"]
 
-require 'url_agent'
+require 'url-agent'
 require 'stub_server'

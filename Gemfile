@@ -1,4 +1,3 @@
-source 'http://gems.mobme.in'
 source 'https://rubygems.org'
 
 group :development do

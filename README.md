@@ -12,13 +12,13 @@ URL Agent acts as a proxy for managing URL access for applications.
         - http://google.com/?q=msisdn=%msisdn%
     
     test:rb:
-      require 'mobme/infrastructure/url_agent'    
-      url_agent = MobME::Infrastructure::URLAgent::Base.instance
+      require 'url-agent'    
+      url_agent = URLAgent::Base.instance
       url_agent.configure(:path_root => File.dirname(__FILE__), :logger => Logger.new(STDOUT))
       
       response = ""
       EM.synchrony do
-        response = url_agent[:google].get
+        response = url-agent[:google].get
         EM.add_timer(3) { EM.stop }
       end
 
